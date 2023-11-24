@@ -1,0 +1,36 @@
+@use "/assets/styles/_variables.scss" as v;
+
+//padding
+@mixin p_wrapper($bp) {
+  @if $bp == "default" {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 20px;
+  } @else if $bp == v.$bp-mid {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 30px;
+  } @else {
+    @error "The specified wrapper is not defined.";
+  }
+}
+
+//media queries
+@mixin mq($bp) {
+  @if $bp == v.$bp-mid {
+    @media screen and (v.$bp-mid <= width) {
+      @content;
+    }
+  } @else {
+    @error "The specified media query is not defined.";
+  }
+}
+
+//hover
+@mixin hover {
+  @media screen and (hover: hover) {
+    &:where(:any-link, :enabled, summary):hover {
+      @content;
+    }
+  }
+}

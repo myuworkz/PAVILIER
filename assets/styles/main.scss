@@ -1,0 +1,18 @@
+html {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 10px;
+  cursor: default;
+  caret-color: transparent;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: v.$bp-min;
+  height: 100%;
+  min-height: v.$h-min;
+  background-color: v.$p_c-blue;
+  overflow-x: hidden;
+}
