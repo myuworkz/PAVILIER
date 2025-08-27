@@ -73,8 +73,8 @@
             <li class="i_profile-li">
               <p>
                 <strong>作ることに向き合います、デザインも実装も</strong>
-                Unity、WordPress、Adobe Illustrator / Photoshop / AfterEffects /
-                XD、openMailFrameworks、Fusion360、Arduino
+                Unity、UE5、WordPress、Adobe Illustrator / Photoshop /
+                AfterEffects / XD、openFrameworks、Blender、Fusion360、Arduino
                 などを用いた制作(Windows/SPアプリケーション、Web、ポスター/ロゴ/UI/インフォグラフィックス、映像、3DCGモデリング、マイコン)経験があり、C++
                 / C# / JavaScript / Python / PHP / VBA を扱います。
               </p>
